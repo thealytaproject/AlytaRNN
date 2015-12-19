@@ -63,3 +63,4 @@ def fetch_data(url):
 if __name__ == '__main__':
   urls = gen_urls(categories)
   threaded(urls, fetch_data, num_threads=10, max_queue=200)
+ 
